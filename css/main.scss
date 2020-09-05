@@ -4,6 +4,13 @@
     margin: 0;
 }
 
+body {
+    background-color: hsl(230, 17%, 14%);
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+    transition: background 0.8s linear;
+}
+
 body.dark {
     background: hsl(0, 0%, 100%);
     transition: .8s;
@@ -27,6 +34,10 @@ h1.dark, h2.dark, .amount.dark {
 .section .dark {
     background: hsl(227, 47%, 96%);
     transition: .8s;
+}
+
+#darkToggle.dark:after {
+    background: white;
 }
 
 input[type=checkbox]{
@@ -76,12 +87,6 @@ header {
     background-color: hsl(232, 19%, 15%);
     margin-bottom: 40px;
     padding: 50px 150px 150px 150px;
-}
-
-body {
-    background-color: hsl(230, 17%, 14%);
-    font-family: "Inter", sans-serif;
-    color: hsl(0, 0%, 100%);
 }
 
 .container {

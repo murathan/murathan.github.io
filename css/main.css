@@ -3,6 +3,14 @@
   margin: 0;
 }
 
+body {
+  background-color: #1e202a;
+  font-family: "Inter", sans-serif;
+  color: white;
+  -webkit-transition: background 0.8s linear;
+  transition: background 0.8s linear;
+}
+
 body.dark {
   background: white;
   -webkit-transition: .8s;
@@ -31,6 +39,10 @@ h1.dark, h2.dark, .amount.dark {
   background: #f0f2fa;
   -webkit-transition: .8s;
   transition: .8s;
+}
+
+#darkToggle.dark:after {
+  background: white;
 }
 
 input[type=checkbox] {
@@ -84,12 +96,6 @@ header {
   background-color: #1f212e;
   margin-bottom: 40px;
   padding: 50px 150px 150px 150px;
-}
-
-body {
-  background-color: #1e202a;
-  font-family: "Inter", sans-serif;
-  color: white;
 }
 
 .container {

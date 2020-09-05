@@ -8,6 +8,7 @@ themeToggle.addEventListener('change', () => {
     document.getElementsByTagName('h1')[0].classList.toggle('dark');
     document.getElementById('header').classList.toggle('dark');
     document.getElementsByTagName('h2')[0].classList.toggle('dark');
+    document.getElementById('darkToggle').classList.toggle('dark');
     for (let i=0; i<length; i++) {
         document.getElementsByClassName('box')[i].classList.toggle('dark');
     }
