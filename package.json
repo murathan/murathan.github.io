@@ -1,0 +1,31 @@
+{
+  "name": "murathan.github.io",
+  "version": "1.0.0",
+  "description": "A social media dashboard with theme switch.",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -w styles/scss/ -o styles/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murathan/murathan.github.io.git"
+  },
+  "keywords": [
+    "social",
+    "media",
+    "dashboard",
+    "light",
+    "dark",
+    "theme",
+    "switch"
+  ],
+  "author": "Murathan Akin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murathan/murathan.github.io/issues"
+  },
+  "homepage": "https://github.com/murathan/murathan.github.io#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
